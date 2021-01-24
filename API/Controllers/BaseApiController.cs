@@ -1,6 +1,10 @@
+using Microsoft.AspNetCore.Mvc;
+
 namespace API.Controllers
 {
-    public class BaseApiController
+    [ApiController]
+    [Route("api/[controller]")]
+    public class BaseApiController : ControllerBase
     {
         
     }

@@ -1,4 +1,9 @@
-$HEADER$namespace $NAMESPACE$
+namespace API.DTOs
 {
-  public class $CLASS$ {$END$}
+    public class UserDto
+    {
+        public string Username { get; set; }
+        
+        public string Token { get; set; }
+    }
 }
